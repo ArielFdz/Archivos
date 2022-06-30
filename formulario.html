@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <div>
+            <form method="post" action="control/Formularios.php" >
+                <input type="text" name="nombre" placeholder="Ingrese Nombre">
+                <br>
+                <br>
+                <input type="text" name="edad" placeholder="Ingrese Edad">
+                <br>
+                <br>
+                <select name="pasatiempo" multiple>
+                    <option value="Jugar Videojuegos">Jugar Videojuegos</option>
+                    <option value="Escuchar Musica">Escuchar Musica</option>
+                    <option value="Ver Peliculas">Ver Peliculas</option>
+                </select>
+                <br>
+                <br>
+                <input type="hidden" name="accion" value="agregar">
+                <button type="submit">Agregar</button>
+                <br>
+            </form> 
+        </div>
+
+    </body>
+</html>
